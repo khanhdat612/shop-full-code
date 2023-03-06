@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.product_info {
+  margin: 0px 200px;
+  &_title {
+    h2 {
+      font-size: 25px;
+    }
+  }
+  &_list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+}
+// .span_margin {
+//   padding: 20px;
+// }
+.footer {
+  margin-top: 50px;
+}
+// .container_user_order {
+//   border-bottom: solid 2px #eee;
+// }
+.product_items {
+  // margin: 0px 50px;
+  display: flex;
+}
+.product_info_list--border {
+  // border-left: 2px solid #eee;
+  border-right: 2px solid rgb(115, 115, 115);
+}
+.total_price {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}

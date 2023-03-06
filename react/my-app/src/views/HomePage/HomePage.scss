@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.container_content {
+  width: 100%;
+  min-height: 200px;
+  // background-image: url("../../images/backgroundweb.jpg");
+}
+.homepage {
+  &_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    align-items: center;
+    &_left {
+      margin-top: 20px;
+      &_banner1 {
+        margin-bottom: 16px;
+      }
+    }
+    &_right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &_title {
+        h2 {
+          font-size: 30px;
+          font-weight: 900;
+          font-family: "Roboto", sans-serif;
+        }
+      }
+      &_item1 {
+        margin-bottom: 8px;
+        display: flex;
+        &_img1 {
+          margin-right: 8px;
+          background: rgba(122, 121, 121, 0.5);
+          border-radius: 16px;
+          img {
+            padding: 16px;
+          }
+        }
+        &_img2 {
+          margin-right: 8px;
+          background: rgba(122, 121, 121, 0.5);
+          border-radius: 16px;
+          img {
+            padding: 16px;
+          }
+        }
+      }
+      &_item2 {
+        display: flex;
+        &_img1 {
+          margin-right: 8px;
+          background: rgba(122, 121, 121, 0.5);
+          border-radius: 16px;
+          img {
+            padding: 16px;
+          }
+        }
+        &_img2 {
+          margin-right: 8px;
+          background: rgba(122, 121, 121, 0.5);
+          border-radius: 16px;
+          img {
+            padding: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 100px;
+  margin-top: 30px;
+  button {
+    min-width: 250px;
+    height: 70px;
+    background-color: #313552;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    border: none;
+  }
+}
+.option_a {
+  color: white;
+}
+
+.option_android:hover button {
+  transition: 0.5s ease;
+  color: #313552;
+  cursor: pointer;
+  background-color: rgb(207, 207, 207);
+}
+.option_android:hover button a {
+  color: #313552;
+}
+
+.option_ios:hover button {
+  transition: 0.5s ease;
+  cursor: pointer;
+  color: #313552;
+  background-color: rgb(207, 207, 207);
+}
+.option_ios:hover button a {
+  color: #313552;
+}
+.option_accessory:hover button {
+  transition: 0.5s ease;
+  cursor: pointer;
+  color: #313552;
+  background-color: rgb(207, 207, 207);
+}
+.option_accessory:hover button a {
+  color: #313552;
+}
+.product_hot {
+  &_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+  }
+  &_items1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    margin-bottom: 50px;
+    &_item {
+      position: relative;
+      img {
+      }
+      &_name {
+        font-family: "Roboto", sans-serif;
+        &--p {
+          text-align: center;
+          border-radius: 8px;
+          bottom: -5%;
+          left: 30px;
+          right: 30px;
+          position: absolute;
+          background: rgba(223, 224, 232, 0.7);
+          font-size: 20px;
+          color: #313552;
+          font-weight: 900;
+          padding: 4px 0px;
+        }
+      }
+    }
+  }
+}
+.policy {
+  &_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    h2 {
+      font-size: 30px;
+      font-weight: 900;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+  &_items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    margin-bottom: 32px;
+    &_item {
+      position: relative;
+
+      &_ship {
+        &--p {
+          cursor: pointer;
+          position: absolute;
+          left: 80px;
+          right: 80px;
+          bottom: 50%;
+          transform: translateY(50%);
+          border-radius: 18px;
+          font-family: "Roboto", sans-serif;
+          font-size: 50px;
+          font-weight: 700;
+          background-color: #f26598;
+          text-align: center;
+          box-shadow: 5px 5px 20px 1px rgba(255, 255, 255, 0.716);
+          color: white;
+        }
+      }
+    }
+  }
+}
+.policy_items_item:hover img {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  opacity: 0.75;
+}
+.product_hot_items1_item img {
+  opacity: 0.8;
+}
+.product_hot_items1_item:hover img {
+  cursor: pointer;
+  opacity: 1;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+.option_a {
+  padding: 15px 70px;
+}

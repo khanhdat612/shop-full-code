@@ -1,0 +1,160 @@
+.navbar_content {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.PageAdmin_navbar_container {
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 30px;
+  h1 {
+    text-align: center;
+  }
+  &_content {
+    padding: 15px;
+    background: #f7f5f5;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+    min-height: 30rem;
+    margin: 20px 50px 20px 20px;
+    &_add {
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      input {
+        margin: 0px 8px;
+      }
+      &_btn {
+        margin-top: 20px;
+        button {
+          cursor: pointer;
+          font-size: 16px;
+          padding: 4px 6px;
+        }
+      }
+    }
+  }
+  &_title {
+    margin-left: -20px;
+  }
+}
+
+.table .tr,
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+.table .tr .td {
+  border: 1px solid black;
+  text-align: center;
+}
+.table {
+  margin-right: 20px;
+  border: 2px solid rgb(0, 0, 0);
+  width: 100%;
+  height: 50px;
+}
+
+.table tr td button {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 6px;
+}
+.table-1 .tr {
+  width: 100%;
+  height: 40px;
+}
+.table-1 .tr .td-01 {
+  width: 10%;
+}
+.table-1 .tr .td-02 {
+  width: 15%;
+}
+.table-1 .tr .td-03 {
+  width: 15%;
+}
+.table-1 .tr .td-04 {
+  width: 15%;
+}
+.table-1 .tr .td-05 {
+  width: 50% !important;
+}
+.table-2 .tr .td-2 {
+  width: 20% !important;
+}
+
+.table-1 td {
+  font-size: 14px;
+}
+.input_margin {
+  margin: 10px 0px;
+}
+.product_add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input {
+    width: 15vw;
+    margin: 10px 0px;
+  }
+  &_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+  }
+}
+
+.add_product_new {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.table_product_add {
+  // border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  tr {
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+  }
+  td {
+    display: block;
+  }
+}
+.remove_product {
+  button {
+    display: block;
+  }
+}
+.background_center_form_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.button_login {
+  button {
+    cursor: pointer;
+  }
+}
+
+.btn-admin {
+  background-color: green;
+  opacity: 0.8;
+  color: white;
+}
+.btn-admin:hover {
+  opacity: 1;
+}
+.PageAdmin_navbar_container_content_2 {
+  min-height: 10rem !important;
+}
+.PageAdmin_navbar_container_content_title_2 {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

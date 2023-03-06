@@ -1,0 +1,98 @@
+.Installments {
+  position: fixed;
+  top: 20%;
+  // bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto !important;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  min-height: 300px;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 10px 7px 58px rgba(49, 53, 82, 0.3);
+  backdrop-filter: blur(11px);
+  border-radius: 61px;
+
+  &_title {
+    h1 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+    margin-bottom: 30px;
+  }
+
+  &_input_name {
+    p {
+      font-size: 14px;
+      opacity: 0.7;
+      font-weight: bold;
+    }
+    input {
+      width: 20vw;
+      height: 35px;
+      border-radius: 4px;
+      background-color: #706c6c31;
+      border: none;
+      padding: 8px;
+      margin-bottom: 15px;
+    }
+    button {
+      cursor: pointer;
+      display: block;
+      width: 20vw;
+      height: 35px;
+      margin: 4px 0px;
+      border: none;
+      border-radius: 4px;
+    }
+  }
+  &_order {
+    margin-top: 30px;
+    &--btn {
+      margin-bottom: 30px;
+    }
+    &--btn {
+      cursor: pointer;
+      background-color: #313552;
+      font-size: 20px;
+      height: 40px;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      width: 20vw;
+      padding: 6px 20px;
+    }
+  }
+}
+
+.OderNow_Installments {
+  // top: 10%;
+}
+.Installments_input_name--btn {
+  margin-bottom: 30px;
+}
+.display_Installments {
+  display: none;
+}
+.display_Installments.active_Installments {
+  display: block;
+}
+.display_Installments.active_Installments.close_Installments {
+  display: none;
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  opacity: 0.5;
+  width: 35px;
+  height: 35px;
+}

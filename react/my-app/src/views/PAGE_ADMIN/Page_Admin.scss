@@ -1,0 +1,19 @@
+.PageAdmin_navbar_container_content_product {
+  display: flex;
+  justify-content: space-between;
+  &_android {
+    display: flex;
+    flex-direction: column;
+  }
+  &_ios {
+    display: flex;
+    flex-direction: column;
+  }
+  &_accessory {
+    display: flex;
+    flex-direction: column;
+  }
+  button {
+    cursor: pointer;
+  }
+}
