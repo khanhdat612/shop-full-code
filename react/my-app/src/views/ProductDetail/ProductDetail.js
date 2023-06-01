@@ -26,8 +26,7 @@ const ProductDetail=() => {
                     dots:false,
                     autoplay: true,
                     speed:2000,
-        
-    };
+                };
     // MUA NGAY
     const [ isActive, setIsActive ]=useState(false);
      function handleOrder() {
